@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signup"
+    android:alpha="0.9"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Welcome Mate!"
+        android:textStyle="bold"
+        android:textColor="#FFFF5722"
+        android:textSize="28sp"
+        android:layout_marginTop="70dp"
+
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#2465C6"
+
+        android:text="Log In"
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_marginTop="7dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        app:cornerRadius="15dp"
+
+        android:text="Sign Up"
+        />
+
+</LinearLayout>
