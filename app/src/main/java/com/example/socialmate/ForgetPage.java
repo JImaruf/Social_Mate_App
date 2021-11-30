@@ -20,7 +20,7 @@ public class ForgetPage extends AppCompatActivity {
 
 
         setContentView(R.layout.activity_forget_page);
-
+        getSupportActionBar().hide();
         sendcode= findViewById(R.id.sendcode);
         sendcode.setOnClickListener(new View.OnClickListener() {
             @Override
